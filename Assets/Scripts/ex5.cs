@@ -5,7 +5,7 @@ using UnityEngine;
 public class ex5 : MonoBehaviour
 {
     public int[] numbers;
-    private int sum = 0;
+    private int sum;
 
     private void Start()
     {
@@ -14,7 +14,6 @@ public class ex5 : MonoBehaviour
             sum += number;
         }
 
-        Debug.Log(sum);
-
+        Debug.Log($"1 + 2 + 3 + 4 + 5 = {sum}");
     }
 }
