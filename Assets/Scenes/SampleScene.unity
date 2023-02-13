@@ -137,6 +137,8 @@ GameObject:
   - component: {fileID: 568858728}
   - component: {fileID: 568858727}
   - component: {fileID: 568858732}
+  - component: {fileID: 568858733}
+  - component: {fileID: 568858734}
   m_Layer: 0
   m_Name: sphere
   m_TagString: Untagged
@@ -246,6 +248,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbaf102906fe9b64aac3f17c4e0dc3f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &568858733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568858726}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44d6d3834d0e4a24b83c5c8f595a95cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &568858734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568858726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebecd8e7e378c344684d983f6a56b715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numbers: 0100000002000000030000000400000005000000
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

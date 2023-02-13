@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class ex2 : MonoBehaviour
 {
-    private string i = "Hola, holita, vecinito";
+    private string message = "Hola, holita, vecinito";
+    private int i = 1;
     private void Start()
     {
-        while (i<=20)
+        while (i <= 1)
         {
-            Debug.Log(i);
+            Debug.Log(message);
             i++;
         }
     }
