@@ -12,8 +12,7 @@ public class ex5 : MonoBehaviour
         foreach(int number in numbers)
         {
             sum += number;
-        }
-
-        Debug.Log($"1 + 2 + 3 + 4 + 5 = {sum}");
+            Debug.Log(sum);
+       }
     }
 }
