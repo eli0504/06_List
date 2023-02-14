@@ -154,7 +154,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 568858726}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9859182f20142546b852aff5ca06e53, type: 3}
   m_Name: 
@@ -261,6 +261,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44d6d3834d0e4a24b83c5c8f595a95cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  message: Hola, holita, vecinito
+  i: 1
 --- !u!114 &568858734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,6 +290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   start: 3
   end: 27
+  i: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,21 +4,23 @@ using UnityEngine;
 
 public class ex4 : MonoBehaviour
 {
+    //left end of the interval and the right end
     public int start = 3;
     public int end = 27;
-    private int i;
+    public int i;
 
     private void Start()
     {
+        //while loop that displays all multiples of 5 between start and end
         i = start;
         while (i < end)
         {
-            if (i % 5 == 0)
+            if (i % 5 == 0) //body calculating the multiples
             {
-                Debug.Log(i);
+                Debug.Log(i); //condition is checked
             }
 
-            i++;
+            i++;  //stop condition
         }
     }
 }

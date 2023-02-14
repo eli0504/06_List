@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class ex5 : MonoBehaviour
 {
-    public int[] numbers;
+    public int[] numbers; //array of numbers
     private int sum;
 
     private void Start()
     {
-        foreach(int number in numbers)
+        foreach(int number in numbers) //foreach loop
         {
-            sum += number;
-            Debug.Log(sum);
-       }
+            sum += number; //sum of the elements of the array
+            Debug.Log(sum); //condition is checked
+        }
     }
 }
  
