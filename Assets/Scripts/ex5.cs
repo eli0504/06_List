@@ -11,9 +11,12 @@ public class ex5 : MonoBehaviour
     {
         foreach(int number in numbers) //foreach loop
         {
-            sum += number; //sum of the elements of the array
-            Debug.Log(sum); //condition is checked
+            sum = sum + number; //sum of the elements of the array  
         }
+
+        Debug.Log($"{numbers[0]} + {numbers[1]} + {numbers[2]} + {numbers[3]} + {numbers[4]} = {sum}"); //condition is checked
     }
+
+
 }
  

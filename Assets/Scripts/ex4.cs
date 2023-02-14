@@ -12,8 +12,9 @@ public class ex4 : MonoBehaviour
     private void Start()
     {
         //while loop that displays all multiples of 5 between start and end
-        i = start;
-        while (i < end)
+
+        i = start; //i = 3
+        while (i < end) //i is less than 27
         {
             if (i % 5 == 0) //body calculating the multiples
             {
